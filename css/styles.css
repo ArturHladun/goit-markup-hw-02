@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/* Header */
+
+/* Header logo*/
+.header-logo {
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.header-logo-color {
+    font-family: "Raleway", sans-serif;
+        color: #4d5ae5;
+}
+/* Header menu list */
+.header-menu-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+/* Header address */
+.header-address {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* Section 1 Hero Section */
+.hero-section {
+    background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+}
+.hero-section-heading {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.hero-button {
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: #4d5ae5;
+}
+.features-list-header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin: 0;
+}
+.features-list-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        margin-top: 8px;
+        margin-bottom: 0;
+}
+.section-features-list-item {
+    display: inline-block;
+    margin-right: 24px;
+    width: 264px;
+    height: 104px;
+}
+.section-features-name {
+    display: none;
+}
