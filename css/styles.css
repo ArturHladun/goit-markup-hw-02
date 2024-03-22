@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: "E5E5E5";
+    background-color: "FFFFFF";
+    color: #434455;
 }
 a {
     text-decoration: none;
@@ -11,7 +12,7 @@ ul {
 
 /*------------------- Title ---------------------- */
 .title {
-    
+
 }
 /* ----------------------------------------------------- */
 /*------------------- Header logo-----------------------*/
@@ -23,12 +24,12 @@ font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-color {
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 /* ----------------------------------------------------- */
@@ -56,8 +57,12 @@ font-family: "Raleway", sans-serif;
 .header-menu-link:active {
     color:#404BBF;
 }
-.header-address {
+.header-menu-link:focus {
+    color: #404bbf;
+}
 
+.header-address {
+font-style: normal
 }
 
 .header-address-list {
@@ -75,14 +80,15 @@ font-family: "Raleway", sans-serif;
 .header-address-link:hover {
     color: #404BBF;
 }
+.header-address-link:focus {
+    color: #404BBF;
+}
 
 /* ----------------------------------------------------- */
 /*------------------- Hero section ---------------------- */
 
 .hero-section {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .hero-section-heading {
@@ -101,6 +107,19 @@ font-family: "Raleway", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4D5AE5
+}
+
+.hero-button {
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 .visually-hidden {
@@ -150,6 +169,7 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .our-team-list {
@@ -157,7 +177,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .our-team-list-item {
-
+    background-color: #FFFFFF;
 }
 
 .our-team-image {
@@ -195,6 +215,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .potfolio-section-list {
@@ -229,6 +250,7 @@ font-family: "Raleway", sans-serif;
 
 .footer {
 background: #2e2f42;
+color: #4d5ae5;
 }
 
 .footer-logo {
